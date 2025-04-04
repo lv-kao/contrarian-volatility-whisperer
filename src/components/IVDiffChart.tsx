@@ -86,8 +86,8 @@ const IVDiffChart = ({ data }: IVDiffChartProps) => {
           </ResponsiveContainer>
         </div>
         <div className="mt-2 flex justify-between text-xs text-muted-foreground">
-          <span>Pink: Call IV > Put IV (Bearish)</span>
-          <span>Blue: Put IV > Call IV (Bullish)</span>
+          <span>Pink: Call IV {`>`} Put IV (Bearish)</span>
+          <span>Blue: Put IV {`>`} Call IV (Bullish)</span>
         </div>
       </CardContent>
     </Card>
@@ -95,3 +95,4 @@ const IVDiffChart = ({ data }: IVDiffChartProps) => {
 };
 
 export default IVDiffChart;
+
